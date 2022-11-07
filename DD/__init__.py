@@ -1,1 +1,1 @@
-from DD import get_dd_online
+from DD.Directors_Dealing import get_dd_online
