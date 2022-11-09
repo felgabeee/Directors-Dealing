@@ -1,5 +1,5 @@
 from setuptools import setup
-
+import setuptools
 setup(
     name="DD",
     version="0.0.1",
@@ -17,6 +17,6 @@ setup(
     author_email="felix.gabet@edhec.com",
     keywords="demo project",
     license="MIT",
-    packages=["DD"],
+    packages=setuptools.find_packages(),
     include_package_data=True,
 )
