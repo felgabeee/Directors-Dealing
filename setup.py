@@ -1,7 +1,7 @@
 from setuptools import setup
 import setuptools
 setup(
-    name="DD",
+    name="DDs",
     version="0.0.1",
     description="Collect DD online",
     long_description_content_type="",
