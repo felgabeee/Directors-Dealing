@@ -4,7 +4,6 @@ setup(
     name="DD",
     version="0.0.1",
     description="Collect DD online",
-    long_description=readme(),
     long_description_content_type="",
     classifiers=[
         "Development Status :: 5 - Production/Stable",
