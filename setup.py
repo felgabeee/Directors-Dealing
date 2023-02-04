@@ -2,8 +2,7 @@ import setuptools
 from setuptools import find_packages, setup
 import os
 
-with open('requirements.txt') as f:
-    required = f.read().splitlines()
+pkgs = ["pandas","numpy","datetime","time","locale","pathlib","os","glob","openpyxl","styleframe","re","PyPDF2","warnings","shutil","tkinter","sys","tkcalendar","selenium","chromedriver_autoinstaller"]
     
 setup(
     name="DDs",
@@ -20,8 +19,8 @@ setup(
     url="https://github.com/felgabeee",
     author="felgabe",
     author_email="felix.gabet@edhec.com",
-    keywords=["AMF","Durectors' dealing"],
+    keywords=["AMF","Directors' dealing"],
+    install_requires=pkgs,
     license="MIT",
-    packages=required,
     include_package_data=True,
 )
