@@ -1,5 +1,5 @@
-from setuptools import setup
 import setuptools
+from setuptools import find_packages, setup
 setup(
     name="DDs",
     version="0.0.1",
