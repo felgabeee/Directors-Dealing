@@ -17,12 +17,11 @@ setup(
         "Programming Language :: Python :: 3.9",
         "Operating System :: OS Independent",
     ],
-    install_requires = required,
     url="https://github.com/felgabeee",
     author="felgabe",
     author_email="felix.gabet@edhec.com",
     keywords="AMF","Durectors' dealing",
     license="MIT",
-    packages=setuptools.find_packages(),
+    packages=required,
     include_package_data=True,
 )
