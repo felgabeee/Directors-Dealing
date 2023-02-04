@@ -20,7 +20,7 @@ setup(
     url="https://github.com/felgabeee",
     author="felgabe",
     author_email="felix.gabet@edhec.com",
-    keywords="AMF","Durectors' dealing",
+    keywords=["AMF","Durectors' dealing"],
     license="MIT",
     packages=required,
     include_package_data=True,
