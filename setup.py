@@ -12,7 +12,7 @@ setup(
         "Programming Language :: Python :: 3.9",
         "Operating System :: OS Independent",
     ],
-    url="https://github.com/RobertoPrevato/FooDemo",
+    url="https://github.com/felgabeee",
     author="felgabe",
     author_email="felix.gabet@edhec.com",
     keywords="demo project",
