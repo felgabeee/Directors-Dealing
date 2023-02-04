@@ -1,8 +1,8 @@
 import setuptools
 from setuptools import find_packages, setup
 import os
-
-pkgs = ["pandas","numpy","locale","pathlib","os","glob","openpyxl","styleframe","re","PyPDF2","warnings","shutil","tkinter","sys","tkcalendar","selenium","chromedriver_autoinstaller"]
+with open('requirements.txt') as f:
+    pkgs = f.read().splitlines()
     
 setup(
     name="DDs",
