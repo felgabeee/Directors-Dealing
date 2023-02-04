@@ -1,5 +1,10 @@
 import setuptools
 from setuptools import find_packages, setup
+import os
+
+with open('requirements.txt') as f:
+    required = f.read().splitlines()
+    
 setup(
     name="DDs",
     version="0.0.1",
@@ -12,10 +17,11 @@ setup(
         "Programming Language :: Python :: 3.9",
         "Operating System :: OS Independent",
     ],
+    install_requires = required,
     url="https://github.com/felgabeee",
     author="felgabe",
     author_email="felix.gabet@edhec.com",
-    keywords="demo project",
+    keywords="AMF","Durectors' dealing",
     license="MIT",
     packages=setuptools.find_packages(),
     include_package_data=True,
