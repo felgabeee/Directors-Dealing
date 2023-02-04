@@ -21,6 +21,7 @@ setup(
     author_email="felix.gabet@edhec.com",
     keywords=["AMF","Directors' dealing"],
     install_requires=pkgs,
+    packages=find_packages(),
     license="MIT",
     include_package_data=True,
 )
