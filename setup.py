@@ -3,6 +3,8 @@ from setuptools import find_packages, setup
 import os
 with open('requirements.txt') as f:
     pkgs = f.read().splitlines()
+liste = find_packages()
+liste.append("DDs")
     
 setup(
     name="DDs",
@@ -21,7 +23,7 @@ setup(
     author_email="felix.gabet@edhec.com",
     keywords=["AMF","Directors' dealing"],
     install_requires=pkgs,
-    packages=find_packages(),
+    packages=liste,
     license="MIT",
     include_package_data=True,
 )
