@@ -30,4 +30,6 @@ The outup of that class instance is an excel file: Directos_Dealing _extract.xls
 
 * If the language you are using on your computer is different from FR or ENG then you will need to change the __init__ instance accordingly.
 
+* The reason why the number of Directors' dealings (number of raw) differ from the number of Director's dealings that is dispalyed on the AMF/ESMA website is due to the fact that transactions below 50 000€ are not taken into account and as a result removed.
+
 
